@@ -1,0 +1,23 @@
+
+spring:
+  application:
+    name:  anime-serve
+    
+    
+  threads:
+    virtual:
+      enabled: true
+
+server:
+  servlet:
+    context-path: /
+
+
+  error:
+    include-stacktrace: on_param
+
+tomcat:
+  threedsd:
+    virtual:
+      max: 20
+
